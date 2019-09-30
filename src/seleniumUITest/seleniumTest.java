@@ -67,7 +67,7 @@ public class seleniumTest {
 	void verifyFormComplete() {
 		try {
 			assertEquals("Complete your profile",
-					driver.findElement(By.xpath("//*[contains(text(), 'Complete your profile')]")).getText());
+					driver.findElement(By.xpath("//*[contains(text(), 'You've created a PC™ id!')]")).getText());
 		} catch (Exception e) {
 			System.out.println("_error " + e);
 		}
