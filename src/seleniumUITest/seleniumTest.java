@@ -80,7 +80,7 @@ public class seleniumTest {
 		obj.lanuchBrowser("https://www.loblaws.ca/");
 		obj.clickMyShopTab();
 		obj.clickSignInBtn();
-		obj.fillInForm("adamharaz@mail.com", "Password!123");
+		obj.fillInForm("adamharaz@mail.com", "i9pGgb2Vd7Ap-S#");
 		obj.verifyFormComplete();
 
 	}
